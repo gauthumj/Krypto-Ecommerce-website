@@ -11,6 +11,7 @@ const ProductDescription = () => {
 
     const [{}, dispatch] = useStateValue();
 
+    // using contextAPI to add items to basket and update the cart
     const addToBasket = (id, title, image, price, rating) => {
         dispatch({
             type: "ADD_TO_BASKET",
@@ -24,6 +25,7 @@ const ProductDescription = () => {
         });
     };
 
+    // fetching products from the server
     console.log(id);
     useEffect(() => {
         async function fetchData() {
@@ -42,6 +44,7 @@ const ProductDescription = () => {
     return (
         <div className="min-h-screen bg-slate-300 items-center">
             <Header />
+            {/* getting id parameter and using it to retrieve details of a specific product */}
             {products != 0 ? (
                 <div className="flex h-full flex-row justify-evenly mt-20 p-10">
                     <div className="w-1/2">

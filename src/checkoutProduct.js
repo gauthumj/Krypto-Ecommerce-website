@@ -1,6 +1,7 @@
 import React from "react";
 import { useStateValue } from "./stateProvider";
 
+// This is the component that will be used to display the product description of the products in cart
 const CheckoutProduct = ({ id, title, image, price, rating }) => {
     const [{}, dispatch] = useStateValue();
     return (

@@ -10,6 +10,7 @@ const Login = () => {
     let navigate = useNavigate();
     const [{}, dispatch] = useStateValue();
 
+    // Post request to login for USER AUTHENTICATION
     const login = () => {
         axios({
             method: "post",
@@ -35,6 +36,7 @@ const Login = () => {
             });
     };
 
+    // Post request to register for USER REGISTRATION
     const register = () => {
         axios({
             method: "post",

@@ -4,6 +4,10 @@ A simple Ecommerce website built with react and tailwind CSS. JSON server used f
 
 Context API used for state management, React Router used for navigation.
 
+<img src="https://shields.io/badge/build-passing-green">
+<img src="https://img.shields.io/badge/license-MIT-green">
+<img src="https://img.shields.io/github/commit-activity/w/gauthumj/krypto-ecommerce-website">
+
 ## Home Page
 
 <img src="./images/home.png">
@@ -21,6 +25,8 @@ Context API used for state management, React Router used for navigation.
 <img src="./images/login.png">
 <img src="./images/login2.png">
 <img src="images/users.png">
+
+> User can signup by clicking create account and using the same input fields as the signup form.
 
 
 ## Checkout Page

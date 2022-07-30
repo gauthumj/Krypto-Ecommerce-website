@@ -19,7 +19,7 @@ function Product({ id, title, image, price, rating }) {
             },
         });
     };
-
+    // PRODUCT CARD - displays product details on home/products page
     return (
         <div className=" hover:cursor-pointer flex flex-col items-center h-72 sm:w-1/5 w-1/2 bg-white m-2 rounded-md">
             <img

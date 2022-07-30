@@ -66,6 +66,7 @@ const Checkout = () => {
                                 </p>
                             </div>
                         ) : (
+                            // display the items in the basket
                             <div>
                                 <h2 className="text-3xl">Your Cart</h2>
                                 {basket.map((item) => (
@@ -81,6 +82,7 @@ const Checkout = () => {
                         )}
                     </div>
                 </div>
+                {/* component for calculating and displaying total price  */}
                 <Subtotal />
             </div>
             <button

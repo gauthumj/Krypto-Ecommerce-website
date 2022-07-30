@@ -23,6 +23,7 @@ const Home = () => {
             <Header />
 
             <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center sm:justify-center">
+                {/* map products with product cards */}
                 {products.map((product) => (
                     <Product
                         key={product.id}
