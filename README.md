@@ -35,3 +35,12 @@ Context API used for state management, React Router used for navigation.
 <img src="./images/checkout.png">
 <img src="./images/checkoutconfirm.png">
 <img src="./images/orders.png">
+
+## Possible Future Additions:
+
+- Third Party Payment Integration
+- Third Party Auth like Google, Facebook, etc.
+- Recaptcha for security
+- Reccommendations/ Frequently Bought Together
+- Forgot Password
+- For-You-Page based on favorites and previous orders
