@@ -3,10 +3,11 @@
 A simple Ecommerce website built with react and tailwind CSS. JSON server used for the backend to store user data for authentication, orders, favorites.
 
 Context API used for state management, React Router used for navigation.
-
+<div>
 <img src="https://shields.io/badge/build-passing-green">
 <img src="https://img.shields.io/badge/license-MIT-green">
 <img src="https://img.shields.io/github/commit-activity/w/gauthumj/krypto-ecommerce-website">
+</div>
 
 ## Home Page
 
