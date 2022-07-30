@@ -11,11 +11,15 @@ import { useStateValue } from "./stateProvider";
 function App() {
     return (
         <Router>
-            {/* <Header /> */}
+            {/* Routes to different pages */}
             <Routes>
                 <Route exact path="/" element={<Home />}></Route>
                 <Route path="/login" element={<Login />}></Route>
-                <Route path="/product/:id" element={<ProductDescription />} />
+                <Route
+                    path="/product/:id"
+                    element={<ProductDescription />}
+                />{" "}
+                {/* :id is a placeholder for the id of the product */}
                 <Route path="/checkout" element={<Checkout />} />
             </Routes>
         </Router>
